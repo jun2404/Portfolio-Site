@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --color-canvas: #FAF7F2;
+  --color-beige: #E8DCC8;
+  --color-charcoal: #2C2A28;
+  --color-terracotta: #C1652F;
+  --color-terracotta-dark: #96440f;
+  --color-terracotta-light: #fbeee7;
+  --color-gold: #C08A4E;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #FAF7F2;
+  color: #2C2A28;
+}
+
+h1, h2, h3, h4, h5, h6, .font-display {
+  font-family: var(--font-display);
+}
+
+.shadow-warm-resting {
+  box-shadow: 0 8px 30px -4px rgba(44, 42, 40, 0.05), 0 2px 8px -2px rgba(193, 101, 47, 0.04);
+}
+
+.shadow-warm-hover {
+  box-shadow: 0 16px 40px -6px rgba(44, 42, 40, 0.09), 0 4px 14px -2px rgba(193, 101, 47, 0.08);
+}
